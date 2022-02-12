@@ -1,0 +1,19 @@
+h3
+{
+    font-size: 25px !important;
+}
+
+.btn btn-primary:hover{
+    background-color: red;
+}
+
+canvas {
+    animation-name: lighting;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lighting {
+    from { box-shadow: 1px 1px 38px blue;}
+    to{ box-shadow: 1px 1px 38px green}
+}
